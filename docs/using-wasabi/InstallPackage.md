@@ -121,7 +121,7 @@ If you have already imported Ádám Ficsor's public key, then jump to step 2.
 After the first run, a working directory will be created: `~/.walletwasabi/`. Among others, here is where your wallet files and your logs reside.
 
 
-## OSX
+### OSX (CLI)
 
 Check out this [video guide](https://www.youtube.com/watch?v=_Zmc54XYzBA).
 
@@ -150,39 +150,23 @@ If you have already imported Ádám Ficsor's public key, then jump to step 4.
 ![](https://imgur.com/dy1zfJG.png)
 
 
-## GPG Set-up and Verification with GUI (OSX)
+### OSX (GUI)
 
-__Setup__
+1. [Get GnuPG](https://www.gnupg.org/download/index.html).
 
-1. Download GnuPG ("GPG Keychain") from https://www.gnupg.org/download/index.html
+2. Open GPG Keychain - to import Adam's PGP key into your GPG Keychain 
 
-2. Install GnuPG
+3. Click - "Lookup Key" - to search for Adam on the public database
 
-to __import Adam's PGP key__ into your GPG Keychain -
+4. Click Lockup Key and search for nopara73@github.com
 
-3. Open GPG Keychain
-4. Click - "Lookup Key" - to search for Adam on the public database
-5. Enter Adam's email : nopara73@github.com
-6. Select Adam and click - "Retrieve Key"
+5. Select Adam and click - "Retrieve Key" - and you should see Adam in your Keychain
 
-now, you should see Adam in your Keychain
+6. Verify Adam's fingerprint : 21D7 CA45 565D BCCE BE45 115D B4B7 2266 C47E 075E
 
-7. Verify Adam's fingerprint : 21D7 CA45 565D BCCE BE45 115D B4B7 2266 C47E 075E
+7. [Download](https://wasabiwallet.io) the latest Wasabi release, both the .dmbpackage and the corresponding.asc signature file.
 
-to __Verify__ - your Wasabi Wallet is authentic
-
-you will need 2 files:
-
-- Wasabi's __.dmg__ file, and
-- the corresponding __.asc__ file
-
-8. Double-click or right-click the __.asc__ file - to show more options
-9. Click - "Services"
-10. Click - "OpenGPG: Verify Signature of File"
-
-__Verification Results__
-
-a positive result should look like -
+8. Click - "Services" and Click - "OpenGPG: Verify Signature of File" - This should return the output:
 
 Wasabi-1.x.x.dmg Signed by nopara73 (GitHub key) nopara73@github.com (B4B72266C47E075E)- undefined trust
 
