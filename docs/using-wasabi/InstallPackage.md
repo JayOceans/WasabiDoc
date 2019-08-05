@@ -164,7 +164,7 @@ If you have already imported Ádám Ficsor's public key, then jump to step 4.
 
 6. Verify Adam's fingerprint : 21D7 CA45 565D BCCE BE45 115D B4B7 2266 C47E 075E
 
-7. [Download](https://wasabiwallet.io) the latest Wasabi release, both the .dmbpackage and the corresponding.asc signature file.
+7. [Download](https://wasabiwallet.io) the latest Wasabi release, both the .dmg package and the corresponding .asc signature file. Put these 2 files into a new folder. Make sure that the file names match exactly except for the extra .asc at the end of the Signature file.
 
 8. Click - "Services" and Click - "OpenGPG: Verify Signature of File" - This should return the output:
 
