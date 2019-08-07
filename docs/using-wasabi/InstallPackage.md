@@ -156,18 +156,32 @@ If you have already imported Ádám Ficsor's public key, then jump to step 4.
 
 2. Open GPG Keychain - to import Adam's PGP key into your GPG Keychain 
 
-3. Click - "Lookup Key" - to search for Adam on the public database
+![](https://ibb.co/dPWJ2y4)
 
-4. Click Lockup Key and search for nopara73@github.com
+3. Click Lockup Key and search for nopara73@github.com
 
-5. Select Adam and click - "Retrieve Key" - and you should see Adam in your Keychain
+![](https://ibb.co/JFw1dfb)
 
-6. Verify Adam's fingerprint : 21D7 CA45 565D BCCE BE45 115D B4B7 2266 C47E 075E
+4. Select Adam and click - "Retrieve Key" - and you should see Adam in your Keychain
 
-7. [Download](https://wasabiwallet.io) the latest Wasabi release, both the .dmg package and the corresponding .asc signature file. Put these 2 files into a new folder. Make sure that the file names match exactly except for the extra .asc at the end of the Signature file.
+![](https://ibb.co/jJRF5ZY)
 
-8. Click - "Services" and Click - "OpenGPG: Verify Signature of File" - This should return the output:
+5. Verify Adam's fingerprint : 21D7 CA45 565D BCCE BE45 115D B4B7 2266 C47E 075E
+
+![](https://ibb.co/WggmF4p)
+
+6. [Download](https://wasabiwallet.io) the latest Wasabi release, both the .dmg package and the corresponding .asc signature file. Put these 2 files into a new folder. Make sure that the file names match exactly except for the extra .asc at the end of the Signature file.
+
+![](https://ibb.co/J399j5N)
+
+7. Click - "Services" and Click - "OpenGPG: Verify Signature of File" 
+
+![](https://ibb.co/HKH2CGD)
+
+This should return the output:
 
 Wasabi-1.x.x.dmg Signed by nopara73 (GitHub key) nopara73@github.com (B4B72266C47E075E)- undefined trust
+
+![](https://ibb.co/2WTwkkF)
 
 
