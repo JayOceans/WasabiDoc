@@ -156,11 +156,11 @@ If you have already imported Ádám Ficsor's public key, then jump to step 4.
 
 2. Open GPG Keychain - to import Adam's PGP key into your GPG Keychain 
 
-![](https://ibb.co/dPWJ2y4.png)
+![](https://ibb.co/dPWJ2y4)
 
 3. Click Lockup Key and search for nopara73@github.com
 
-![](https://ibb.co/JFw1dfb.jpeg)
+![](https://ibb.co/JFw1dfb)
 
 4. Select Adam and click - "Retrieve Key" - and you should see Adam in your Keychain
 
