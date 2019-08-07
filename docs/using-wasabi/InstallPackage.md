@@ -160,7 +160,7 @@ If you have already imported Ádám Ficsor's public key, then jump to step 4.
 
 3. Click Lockup Key and search for nopara73@github.com
 
-![](https://ibb.co/JFw1dfb)
+![](https://ibb.co/JFw1dfb.jpeg)
 
 4. Select Adam and click - "Retrieve Key" - and you should see Adam in your Keychain
 
