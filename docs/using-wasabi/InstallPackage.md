@@ -156,7 +156,7 @@ If you have already imported Ádám Ficsor's public key, then jump to step 4.
 
 2. Open GPG Keychain - to import Adam's PGP key into your GPG Keychain 
 
-![](/WasabiDoc/docs/PGP Keychain.png)
+![](/JayOceans/WasabiDoc/docs/PGP Keychain.png)
 
 3. Click Lockup Key and search for nopara73@github.com
 
